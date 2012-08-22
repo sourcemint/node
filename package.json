@@ -1,9 +1,9 @@
 {
-	"name": "sourcemint-node",
-	"version": "0.1.0",
-	"pm": "npm",
-	"dependencies": {
-		"express": "3.0.0rc3",
-		"request": "2.10.0"
-	}
+    "name": "sourcemint-node",
+    "version": "0.1.1",
+    "pm": "npm",
+    "dependencies": {
+        "express": "3.0.0rc3",
+        "request": "2.10.0"
+    }
 }
