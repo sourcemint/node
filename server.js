@@ -1,6 +1,5 @@
 
 const EXPRESS = require("express");
-const SM_NODE_CLIENT = require("sourcemint-node/lib/client");
 
 
 var app = EXPRESS();
