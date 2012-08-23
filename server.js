@@ -69,7 +69,7 @@ function scanRedeploy(data, callback) {
                         config = config.on["RepositoryNewTag"];
 
                         ASSERT(typeof config.do === "string", "`do` not set for '" + descriptorPath + " ~ config[\"github.com/sourcemint/node/0\"].on.RepositoryNewTag'!");
-                        ASSERT(typeof config.match === "string", "`match` not set for '" + descriptorPath + " ~ config[\"github.com/sourcemint/node/0\"].on.RepositoryNewTag'!");
+                        ASSERT(typeof config.match === "object", "`match` not set for '" + descriptorPath + " ~ config[\"github.com/sourcemint/node/0\"].on.RepositoryNewTag'!");
                         ASSERT(typeof config.match.repository === "string", "`repository` not set for '" + descriptorPath + " ~ config[\"github.com/sourcemint/node/0\"].on.RepositoryNewTag.match'!");
 
                         var parsedUrl = URL.parse(data.repository);
